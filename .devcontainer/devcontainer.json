@@ -15,7 +15,8 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"mongodb.mongodb-vscode"
+				"mongodb.mongodb-vscode",
+				"eamodio.gitlens"
 			]
 		}
 	},
@@ -23,11 +24,26 @@
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
 	"portsAttributes": {
-		"24678": {
+		"3000": {
+			"label": "front-end"
+		},
+		"6379": {
+			"label": "redis"
+		},
+		"8000": {
 			"label": "backend"
 		},
+		"24678": {
+			"label": "unknown"
+		},
+		"27017": {
+			"label": "unknown"
+		},
 		"55555": {
-			"label": "0.0.0.0:test"
+			"label": "test"
+		},
+		"0.0.0.0:24678": {
+			"label": "backend"
 		}
 	},
 
@@ -35,7 +51,7 @@
 	"forwardPorts": [3000, 27017],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+	"postCreateCommand": "docker run --name my-redis -p 6379:6379 -d redis",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
