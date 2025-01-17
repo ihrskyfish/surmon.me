@@ -11,8 +11,6 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
-    "**/*.css": true,
-    "**/*.scss": true,
     "LICENSE": true,
     "public": true,
     "scripts": true,
@@ -22,7 +20,14 @@
     ".editorconfig": true,
     "relatedProject": true,
     "sbundler": true,
-    "screenshots": true
+    "screenshots": true,
+    "src/assets": true,
+    "src/styles/base": true,
+    "src/styles": true,
+    "src/language/lang-zh.ts": true,
+    "src/language/lang-en.ts": true,
+    "src/language/key.ts": true,
+    "src/language": true
   },
   "hide-files.files": [
     "LICENSE",
@@ -35,6 +40,12 @@
     "relatedProject",
     "sbundler",
     "screenshots",
-    "src/assets"
+    "src/assets",
+    "src/styles/base",
+    "src/styles",
+    "src/language/lang-zh.ts",
+    "src/language/lang-en.ts",
+    "src/language/key.ts",
+    "src/language"
   ]
 }
