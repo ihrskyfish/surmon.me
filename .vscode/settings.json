@@ -46,6 +46,7 @@
     "src/language/lang-zh.ts",
     "src/language/lang-en.ts",
     "src/language/key.ts",
-    "src/language"
+    "src/language",
+    "src/constants"
   ]
 }
