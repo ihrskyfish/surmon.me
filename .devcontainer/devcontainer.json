@@ -16,7 +16,9 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"mongodb.mongodb-vscode",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"saoudrizwan.claude-dev",
+				"Vue.volar"
 			]
 		}
 	},
