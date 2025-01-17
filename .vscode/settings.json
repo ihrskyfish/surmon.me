@@ -2,5 +2,36 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "files.autoSave": "off"
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "LICENSE": true,
+    "public": true,
+    "scripts": true,
+    "patches": true,
+    ".github": true,
+    "dist": true,
+    ".editorconfig": true,
+    "relatedProject": true,
+    "sbundler": true,
+    "screenshots": true
+  },
+  "hide-files.files": [
+    "LICENSE",
+    "public",
+    "scripts",
+    "patches",
+    ".github",
+    "dist",
+    ".editorconfig",
+    "relatedProject",
+    "sbundler",
+    "screenshots"
+  ]
 }
