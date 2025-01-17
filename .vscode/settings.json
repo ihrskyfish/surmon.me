@@ -50,6 +50,7 @@
     "src/language/key.ts",
     "src/language",
     "src/constants",
-    "src/types"
+    "src/types",
+    "src/effects/swiper/style.ts"
   ]
 }
