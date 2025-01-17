@@ -23,8 +23,11 @@
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
 	"portsAttributes": {
+		"24678": {
+			"label": "backend"
+		},
 		"55555": {
-			"label": "test"
+			"label": "0.0.0.0:test"
 		}
 	},
 
