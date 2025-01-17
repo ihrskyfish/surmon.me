@@ -27,7 +27,9 @@
     "src/language/lang-zh.ts": true,
     "src/language/lang-en.ts": true,
     "src/language/key.ts": true,
-    "src/language": true
+    "src/language": true,
+    "src/constants": true,
+    "src/types": true
   },
   "hide-files.files": [
     "LICENSE",
@@ -47,6 +49,7 @@
     "src/language/lang-en.ts",
     "src/language/key.ts",
     "src/language",
-    "src/constants"
+    "src/constants",
+    "src/types"
   ]
 }

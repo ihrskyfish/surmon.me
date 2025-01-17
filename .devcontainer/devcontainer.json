@@ -18,7 +18,8 @@
 				"mongodb.mongodb-vscode",
 				"eamodio.gitlens",
 				"saoudrizwan.claude-dev",
-				"Vue.volar"
+				"Vue.volar",
+				"roonie007.hide-files"
 			]
 		}
 	},
