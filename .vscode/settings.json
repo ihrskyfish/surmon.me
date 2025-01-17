@@ -11,6 +11,8 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
+    "**/*.css": true,
+    "**/*.scss": true,
     "LICENSE": true,
     "public": true,
     "scripts": true,
@@ -32,6 +34,7 @@
     ".editorconfig",
     "relatedProject",
     "sbundler",
-    "screenshots"
+    "screenshots",
+    "src/assets"
   ]
 }
