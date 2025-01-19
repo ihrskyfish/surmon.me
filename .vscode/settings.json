@@ -29,7 +29,11 @@
     "src/language/key.ts": true,
     "src/language": true,
     "src/constants": true,
-    "src/types": true
+    "src/types": true,
+    "src/effects/swiper/style.ts": true,
+    "src/effects/elements/index.scss": true,
+    "src/effects/elements/verse.scss": true,
+    "src/transforms/chatgpt.ts": true
   },
   "hide-files.files": [
     "LICENSE",
@@ -51,6 +55,10 @@
     "src/language",
     "src/constants",
     "src/types",
-    "src/effects/swiper/style.ts"
+    "src/effects/swiper/style.ts",
+    "src/effects/elements/index.scss",
+    "src/effects/elements/verse.scss",
+    "src/transforms/chatgpt.ts",
+    "src/transforms/email.ts"
   ]
 }
