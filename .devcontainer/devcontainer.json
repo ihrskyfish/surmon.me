@@ -19,13 +19,16 @@
 				"eamodio.gitlens",
 				"saoudrizwan.claude-dev",
 				"Vue.volar",
-				"roonie007.hide-files"
+				"roonie007.hide-files",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
 			]
 		}
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
-		"ghcr.io/itsmechlark/features/redis-server:1": {}
+		"ghcr.io/itsmechlark/features/redis-server:1": {},
+		"ghcr.io/duduribeiro/devcontainer-features/neovim:1": {}
 	},
 	"portsAttributes": {
 		"3000": {
@@ -55,7 +58,7 @@
 	"forwardPorts": [3000,6379,8000,27017],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pnpm install && pnpm run dev",
+	"postCreateCommand": " docker run -d -p 6379:6379 --restart unless-stopped  --name my-redis2 redis && pnpm install && pnpm run dev ",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
