@@ -33,7 +33,16 @@
     "src/effects/swiper/style.ts": true,
     "src/effects/elements/index.scss": true,
     "src/effects/elements/verse.scss": true,
-    "src/transforms/chatgpt.ts": true
+    "src/transforms/chatgpt.ts": true,
+    "src/transforms/email.ts": true,
+    "prettier.config.js": true,
+    ".env": true,
+    ".env.production": true,
+    ".env.development": true,
+    "tsconfig.json": true,
+    "vite.config.ts": true,
+    "package-lock.json": true,
+    "eslint.config.js": true
   },
   "hide-files.files": [
     "LICENSE",
@@ -59,6 +68,15 @@
     "src/effects/elements/index.scss",
     "src/effects/elements/verse.scss",
     "src/transforms/chatgpt.ts",
-    "src/transforms/email.ts"
+    "src/transforms/email.ts",
+    "prettier.config.js",
+    ".env",
+    ".env.production",
+    ".env.development",
+    "tsconfig.json",
+    "vite.config.ts",
+    "package-lock.json",
+    "eslint.config.js",
+    "src/transforms"
   ]
 }
